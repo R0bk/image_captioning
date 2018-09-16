@@ -1,2 +1,4 @@
 pandas
-nano
+matplotlib
+tqdm
+opencv-python

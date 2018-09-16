@@ -1,4 +1,7 @@
 #!/usr/bin/python
+import nltk
+nltk.download('punkt')
+
 import tensorflow as tf
 
 from config import Config

@@ -70,7 +70,7 @@ class show_and_tell_model():
             handler.write(img_data)
 
     def get_result(self, url):
-        return self.cache[url]
+        return self.cache.get(url, None)
 
     def update_cache(self):
         # os.chdir('./show_attend_and_tell')

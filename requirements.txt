@@ -2,3 +2,5 @@ pandas
 matplotlib
 tqdm
 opencv-python
+scikit-image
+scikit-learn
